@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello Kitty Letter 💌</title>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffe6f0;
+      font-family: 'Indie Flower', cursive;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    .letter-container {
+      background: #fff0f5;
+      border: 4px dashed #ff69b4;
+      border-radius: 25px;
+      padding: 50px 40px;
+      max-width: 700px;
+      margin: 120px auto;
+      box-shadow: 0 0 25px rgba(255, 105, 180, 0.4);
+      position: relative;
+      z-index: 2;
+      text-align: left;
+      color: #c71585;
+      line-height: 1.8;
+    }
+
+    .letter-container h1 {
+      font-size: 2.5em;
+      color: #ff1493;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .cute-button {
+      display: block;
+      margin: 30px auto 0;
+      padding: 12px 24px;
+      background-color: #ff69b4;
+      border: none;
+      border-radius: 20px;
+      color: white;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .cute-button:hover {
+      background-color: #ff1493;
+    }
+
+    /* Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 192, 203, 0.7);
+      backdrop-filter: blur(4px);
+    }
+
+    .modal-content {
+      background-color: #fff0f6;
+      margin: 15% auto;
+      padding: 20px 30px;
+      border: 2px solid #ff69b4;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+      box-shadow: 0 0 10px #ff69b4;
+    }
+
+    .modal-buttons button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-family: 'Indie Flower', cursive;
+    }
+
+    .modal-buttons .yes {
+      background-color: #ff69b4;
+      color: white;
+    }
+
+    .modal-buttons .no {
+      background-color: #f8d7da;
+      color: #d63384;
+    }
+
+    .sticker-frame {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .sticker {
+      position: absolute;
+      width: 80px;
+      opacity: 0.9;
+      user-select: none;
+      transition: transform 0.3s ease;
+    }
+
+    .sticker:hover {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+
+    @media (max-width: 600px) {
+      .sticker {
+        width: 50px;
+      }
+      .letter-container {
+        padding: 30px 20px;
+        margin: 140px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Stickers around the letter -->
+  <div class="sticker-frame">
+    <img src="images/1.png" class="sticker" style="top: 100px; left: 30px; transform: rotate(-15deg);">
+    <img src="images/2.png" class="sticker" style="top: 80px; right: 30px; transform: rotate(12deg);">
+    <img src="images/3.png" class="sticker" style="top: 300px; left: -25px; transform: rotate(20deg);">
+    <img src="images/4.png" class="sticker" style="top: 300px; right: -25px; transform: rotate(-18deg);">
+    <img src="images/5.png" class="sticker" style="top: 500px; left: 30px; transform: rotate(8deg);">
+    <img src="images/6.png" class="sticker" style="top: 500px; right: 30px; transform: rotate(-8deg);">
+    <img src="images/7.png" class="sticker" style="bottom: 200px; left: -20px; transform: rotate(-10deg);">
+    <img src="images/8.png" class="sticker" style="bottom: 200px; right: -20px; transform: rotate(10deg);">
+    <img src="images/9.png" class="sticker" style="bottom: 80px; left: 30px; transform: rotate(10deg);">
+    <img src="images/10.png" class="sticker" style="bottom: 80px; right: 30px; transform: rotate(-10deg);">
+    <img src="images/11.png" class="sticker" style="top: 50%; left: -40px; transform: rotate(25deg);">
+    <img src="images/12.png" class="sticker" style="top: 50%; right: -40px; transform: rotate(-25deg);">
+  </div>
+
+  <!-- Letter Content -->
+  <div class="letter-container">
+    <h1>💖To My Sweetheart,My babiee, my loveeeiee dovieee 💖</h1>
+    <p>
+      My love 💖,
+    </p>
+    <p>
+      🌟 happy international gf day tho , seriously i dont have any topic and content to make this but had spare time so thought to spoil you, I love you with all my heart. 💘
+    </p>
+    <p>
+     ✨i might have expressed my love against you, so why not again? I mean, all i want is just a single reason to spoil/adore you, then let's gooo. It's been long and i do see there have been times we've been together, me in your hard times, sorrows, regrets and downs, not letting you go low and being ur sole s oulder to c cry on, someone to rely on.<p>
+        </p>
+    <p>
+     💋 I don’t know what the future holds, but I know I want to walk through it holding your hand. I promise to be here, to laugh with you, cry with you, grow with you, and most of all — love you endlessly. 💞
+    </p>
+    <p>
+      🫶🏻Happy Girlfriend Day, my love. You mean more to me than words can ever express. I adore you now, forever, and beyond. 💍
+    </p>
+    <p>
+      Your other half 💗,<br>
+      💖ASH💖
+    </p>
+
+    <button id="promise-btn" class="cute-button">💍 Marry me?</button>
+  </div>
+
+  <!-- Modal Popup -->
+  <div id="promiseModal" class="modal">
+    <div class="modal-content">
+      <p id="modalText">🖤Will you be mine till the moon and back , to the sun and quack? 🥹💖</p>
+      <div class="modal-buttons">
+        <button id="yesBtn" class="yes">Yes 💕</button>
+        <button id="noBtn" class="no">No 😔</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script>
+    let noClicks = 0;
+
+    const modal = document.getElementById("promiseModal");
+    const modalText = document.getElementById("modalText");
+    const yesBtn = document.getElementById("yesBtn");
+    const noBtn = document.getElementById("noBtn");
+    const triggerBtn = document.getElementById("promise-btn");
+
+    const noResponses = [
+      "😭😭😭whieee u pressin nooo??????",
+      "💔💔Sacchi me kyaa🥹??  mera chotu sa dil todegi tu💔💔??🥹 😿",
+      "🤡No dabane se acha mera gala daba de 🤡?? You silly🥹! 🐱💕"
+    ];
+
+    triggerBtn.onclick = () => {
+      modal.style.display = "block";
+      noClicks = 0;
+      modalText.innerText = "will you be mine till the moon and back,to the sun and quack? 🥹💖";
+    };
+
+    yesBtn.onclick = () => {
+      modalText.innerText = "Yaaaay, merko ptaa thaaaaa!! I loveeee youuuu soooo muchhhhhhh 💖💍💑";
+      setTimeout(() => modal.style.display = "none", 2000);
+    };
+
+    noBtn.onclick = () => {
+      if (noClicks < 2) {
+        modalText.innerText = noResponses[noClicks];
+        noClicks++;
+      } else {
+        modalText.innerText = "who cares , your no means yes to me hmphhhhh! 😤💕";
+        setTimeout(() => modal.style.display = "none", 2500);
+      }
+    };
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
+</body>
+</html>
+
